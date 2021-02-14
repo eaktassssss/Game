@@ -20,7 +20,7 @@ namespace TurtleGame.Services.Strategy
             else if (moveType.Trim().ToUpper() == Moves.M.ToString().Trim().ToUpper())
                 return new Move(turtle);
             else
-                return new UnhandledMove();
+                throw new Exception(nameof(moveType));
         }
     }
 }

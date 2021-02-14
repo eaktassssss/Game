@@ -26,13 +26,5 @@ namespace TurtleGame.Services.Strategy
             MoveFactory.GetMove(turtle, moveType).MoveTurtle();
         }
     }
-   
 
-   
-
-    
-    public class UnhandledMove : MoveBase
-    {
-        public override void MoveTurtle() => Console.WriteLine("Unhandled Move");
-    }
 }
