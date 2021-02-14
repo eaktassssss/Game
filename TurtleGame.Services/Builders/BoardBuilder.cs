@@ -6,6 +6,7 @@ namespace TurtleGame.Services.Builders
 
     public class BoardBuilder
     {
+        // Board Buiilder
         public static void Build(Point exit, Point position, List<Point> mines, Grid grid)
         {
             var board = new Board();
