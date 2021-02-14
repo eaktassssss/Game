@@ -12,7 +12,7 @@ namespace TurtleGame.Services.Helpers
     {
         public static ProjectSetting GetProjectSetting()
         {
-            var settingString = File.ReadAllLines(@"C:\Users\EVREN\Downloads\GameRefactored\Game\Game.UI\Settings\project.txt");
+            var settingString = File.ReadAllLines(@"C:\Users\EVREN\source\repos\TurtleGame\TurtleGame.UI\Settings\project.txt");
             var settings = new ProjectSetting();
 
             var sizeStrings = settingString[0].Split(' ');
