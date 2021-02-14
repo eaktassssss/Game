@@ -11,6 +11,7 @@ namespace TurtleGame.Services.Builders
 {
     public class GameBuilder
     {
+        // Game Buiilder
         private Grid _grid;
         private ProjectSetting _projectSetting;
         private Observer _observer;
